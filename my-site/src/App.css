@@ -36,15 +36,14 @@
     transform: rotate(360deg);
   }
 }
-.navigation{
-  background: #C98986;
-  border: 2px solid blue;
+.App{
+  background: white;
 }
 
 nav{
+  background: #C98986;
   display: flex;
   width: 100%;
-  border: 1px solid hotpink;
   justify-content: space-between;
 }
 
@@ -68,4 +67,14 @@ nav{
 .landing-page{
   width: 80%;
   margin: 0 9%;
+}
+
+.skill-page{
+  border: 1px solid hotpink;
+  width: 80%;
+  margin: 10px 9%;
+}
+
+.contact{
+  padding: 10px;
 }
